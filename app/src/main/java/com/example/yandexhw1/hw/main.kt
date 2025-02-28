@@ -15,7 +15,7 @@ fun main() {
     notebook.loadFromFile()
     println("Заметки после загрузки: ${notebook}")
 
-    notebook.removeNote(note.uid)
+    notebook.removeNote(Uid(note.uid.value))
     println("Заметка удалена")
 
     notebook.cleanupExpiredNotes(60)

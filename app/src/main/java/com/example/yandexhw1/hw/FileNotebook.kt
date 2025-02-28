@@ -5,11 +5,11 @@ import java.io.File
 import java.time.LocalDateTime
 
 class FileNotebook(private val file: File) {
-    private val notes = mutableListOf<Note>()
+    private val notes = mutableSetOf<Note>()
 
     fun addNote(note: Note): Boolean = notes.add(note)
 
-    fun removeNote(uid: String): Boolean = notes.removeAll { it.uid == uid }
+    fun removeNote(uid: Uid): Boolean = notes.removeAll { it.uid == uid }
 
     fun saveToFile() {
         file.writeText(JSONObject().put("notes", notes.map { it.json }).toString())
