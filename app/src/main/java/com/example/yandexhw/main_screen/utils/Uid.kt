@@ -1,4 +1,4 @@
-package com.example.yandexhw1.hw
+package com.example.yandexhw.main_screen.models
 
 import java.util.UUID
 

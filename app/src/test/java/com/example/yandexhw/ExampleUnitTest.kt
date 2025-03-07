@@ -1,4 +1,4 @@
-package com.example.yandexhw1
+package com.example.yandexhw
 
 import org.junit.Test
 

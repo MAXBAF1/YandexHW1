@@ -1,4 +1,4 @@
-package com.example.yandexhw1.ui.theme
+package com.example.yandexhw.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

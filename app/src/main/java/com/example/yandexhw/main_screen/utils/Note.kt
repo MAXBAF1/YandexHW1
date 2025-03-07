@@ -1,4 +1,4 @@
-package com.example.yandexhw1.hw
+package com.example.yandexhw.main_screen.models
 
 import android.graphics.Color
 import org.json.JSONObject
@@ -54,7 +54,7 @@ fun Note.Companion.parse(json: JSONObject): Note? {
 val Note.json: JSONObject
     get() {
         val json = JSONObject()
-        json.put("uid", uid)
+        json.put("uid", uid.value)
         json.put("title", title)
         json.put("content", content)
         if (color != Color.WHITE) json.put("color", color)

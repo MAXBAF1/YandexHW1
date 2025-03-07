@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">YandexHW1</string>
+    <string name="app_name">YandexHW</string>
+
+    <string name="add">Добавить</string>
+    <string name="remove">Удалить</string>
+    <string name="clean">Очистить</string>
 </resources>

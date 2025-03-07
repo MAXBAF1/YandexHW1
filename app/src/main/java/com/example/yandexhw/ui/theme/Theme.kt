@@ -1,4 +1,4 @@
-package com.example.yandexhw1.ui.theme
+package com.example.yandexhw.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

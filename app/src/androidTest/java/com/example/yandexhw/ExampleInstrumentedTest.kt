@@ -1,4 +1,4 @@
-package com.example.yandexhw1
+package com.example.yandexhw
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

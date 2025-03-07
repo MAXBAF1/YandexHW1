@@ -2,10 +2,12 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("dagger.hilt.android.plugin")
+    id("com.google.devtools.ksp")
 }
 
 android {
-    namespace = "com.example.yandexhw1"
+    namespace = "com.example.yandexhw"
     compileSdk = 35
 
     defaultConfig {
@@ -40,6 +42,16 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.lifecycle.runtime.compose.android)
+
+    // Hilt
+    implementation(libs.hilt.android)
+    implementation(libs.hilt.navigation.compose)
+    ksp(libs.hilt.android.compiler)
+
+    // Logging
+    implementation(libs.slf4j.api)
+    implementation(libs.logback.android)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

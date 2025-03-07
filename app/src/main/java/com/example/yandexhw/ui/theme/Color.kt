@@ -1,4 +1,4 @@
-package com.example.yandexhw1.ui.theme
+package com.example.yandexhw.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

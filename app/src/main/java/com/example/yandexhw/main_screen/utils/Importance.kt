@@ -1,4 +1,4 @@
-package com.example.yandexhw1.hw
+package com.example.yandexhw.main_screen.models
 
 enum class Importance {
     LOW, NORMAL, HIGH
