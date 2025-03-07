@@ -11,7 +11,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.yandexhw1"
+        applicationId = "com.example.yandexhw"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
